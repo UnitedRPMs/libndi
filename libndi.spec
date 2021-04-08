@@ -7,7 +7,7 @@
 
 Name:           libndi
 Version:        0.0.1
-Release:        1%{?gver}%{dist}
+Release:        2%{?gver}%{dist}
 Summary:        libNDI is a new NDI cross-platform
 
 License:        LGPLv2+
@@ -57,6 +57,9 @@ developing applications that use %{name}.
 
 
 %changelog
+
+* Wed Apr 07 2021 Unitedrpms Project <unitedrpms AT protonmail DOT com> 0.0.1-2.gitc14b40c
+- Rebuilt
 
 * Tue Sep 01 2020 Unitedrpms Project <unitedrpms AT protonmail DOT com> 0.0.1-1.gitc14b40c
 - Initial build
